@@ -1,0 +1,438 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+/*INDEX*/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px; 
+  padding: 0 10px;
+}
+
+/*Background susnset image*/
+.header_index {
+  background: url('FullSizeRender-1.jpg') no-repeat center center; 
+  background-size: cover;
+  height: 700px;
+  text-align: center; 
+}
+
+.header_index .container {
+  position: relative;
+  top: 200px;
+}
+
+/*Abby Rents*/
+.header_index h1 {
+  color: #000;
+  line-height: 100px; 
+  font-size: 90px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase; 
+  text-shadow: 4px 4px  rgb(222, 236, 255);
+}
+
+@media (min-width:8500px) {
+  .header h1 {
+    font-size: 200px;
+  }
+}
+
+
+.header p {
+  color: #000;
+  font-size:100px;
+  font-weight: 500;
+  letter-spacing: 8px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  text-transform: uppercase; 
+}
+
+
+/*The top nav*/
+.nav { 
+  height: 100px; 
+  width: 100%;
+  
+}
+
+.nav ul {
+  height: 80px;
+  
+  text-decoration: none;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+   
+}
+
+.nav a:link{
+color:#000;
+text-decoration:none;
+}
+
+.nav a:visited{
+ text-decoration:none;
+   color:#000;
+  
+}
+
+ .nav a:hover{
+  color:#000;
+  text-decoration: none;
+  
+ }
+
+ .nav a:active{
+  content: none;
+ }
+
+
+.nav ul li{
+  color: #fff;
+  display: inline-block; 
+  height: 80px;
+  font-size: 20px;
+  line-height: 80px; 
+  list-style: none;
+  padding: 0 47px;
+  transition: background .5s; 
+   
+}
+
+.nav ul li:hover {
+  background: rgb(222, 236, 255);
+  text-decoration: none;
+  color:#fff;
+  cursor: pointer; 
+  transition: background .5s;    
+}
+
+
+
+
+/*Learn More*/
+
+.btn {
+  color: #fff;
+  background: #000;
+  padding: 10px 40px;
+  text-decoration: none; 
+  transition: background .5s; 
+}
+
+.btn:hover {
+  background: rgb(222, 236, 255);
+  text-decoration: none;
+  color:#000;
+  cursor: pointer; 
+  transition: background .5s;  
+}
+
+.btn a:link{
+color:#fff;
+text-decoration:none;
+}
+
+.btn a:visited{
+ text-decoration:none;
+   color:#fff;
+}
+
+
+.main .container {
+  margin: 80px auto;
+  font-size: 19px;
+}
+
+/* meet the a team pic*/
+.main img {
+  float: left;
+  margin: 20px 50px 50px 0;
+  transform: rotate(90deg);
+  width: 400px;
+  height:300px;
+}
+
+
+
+
+
+/*copyright section*/
+.footer { 
+  background: rgb(222, 236, 255);
+  height: 80px; 
+  padding-top: 30px;
+  padding-bottom: 1rem;
+  position: inherit;
+  right: 0;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+
+
+
+
+
+
+
+/*copright*/
+.footer p { 
+  color: rgb(0, 0, 0);
+  font-size: 14px;  
+  height: 80px; 
+  line-height: 80px;
+  margin: 0;  
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}
+
+.tennispic{
+  border-radius: 100%;
+
+}
+ .contact{
+   background-color: white;
+   
+
+   /*ABOUT US*/
+ }
+ .header_about{
+    background: url('sunset.jpg') no-repeat center center; 
+  background-size: cover;
+  background-blend-mode: lighten;
+  height: 127px;
+  text-align: center; 
+  font-size: 45px;
+ 
+ }
+
+.What_is_Abby_Rents{
+  font-size: 500px;
+  height: 50px; 
+}
+
+#weightedfont{
+ font-weight: 400;
+} 
+
+#roundedges{
+  border-radius: 20%;
+}
+
+#floatleft{
+  float:left;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: none;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+img{
+/*height: 40%;
+width: 80%;*/
+}
+
+/*CONTACT US*/
+.contact_us{
+  padding: 70px;
+ 
+}
+
+
+
+/*rental.html stuff*/
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  font-weight:700;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rentheads{
+  
+}
+
+.map{
+  width:50%;
+}
+
+.floatleft{
+  float:left;
+}
+
+.cart_header{
+font-weight:70px
+}
+/*checkout.html */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    
+    font-weight: normal;
+    color:black;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: black;
+}
+
+.billing{
+  color:black;
+}
+
+.cart-row .cart-title .billing{
+  font-size: 30px;
+}
+
+
+
+/*checkout*/
+
+.addtocart {
+  color: #fff;
+  background: #000;
+  padding: 10px 40px;
+  text-decoration: none; 
+  transition: background .5s
+}
+
+.addtocart:hover{
+   background: rgb(222, 236, 255);
+  text-decoration: none;
+  color:#000;
+  cursor: pointer; 
+  transition: background .5s;  
+}
+
+
+
+
